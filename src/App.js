@@ -26,8 +26,8 @@ class BooksApp extends React.Component {
       BooksAPI
         .search(query)
         .then((result) => {
-          this.updateSearchedResult(result)
           if (result.error !== 'empty query') {
+            this.updateSearchedResult(result)
             this.setState({ filteredBooks: result })
           } else {
             this.setState({ filteredBooks: [] })
