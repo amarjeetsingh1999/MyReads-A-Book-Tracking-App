@@ -1,5 +1,11 @@
 # MyReads-A-Book-Tracking-App
 
+## Overview
+* Books are sorted into three categories: Currently Reading, Want to Read and Read.
+* To change a book's category or remove a book from the list, click on the green button on the book cover.
+* To add new books, click on the green + button at the bottom of the page. Enter an author's name or subject.
+_Note: The backend API is limited to a fixed set of [search terms](#search-terms)
+
 ## How to Run the App
 * Download this repository as .zip or clone this repository:
 ```git clone https://github.com/amarjeetsingh1999/MyReads-A-Book-Tracking-App.git```
@@ -8,12 +14,6 @@
 * Then launch the app, start the development server with
 ```npm start```
 * A new browser window should automatically open displaying the app. If it doesn't, navigate to http://localhost:3000/ in your browser.
-
-## Overview
-* Books are sorted into three categories: Currently Reading, Want to Read and Read.
-* To change a book's category or remove a book from the list, click on the green button on the book cover.
-* To add new books, click on the green + button at the bottom of the page. Enter an author's name or subject.
-_Note: The backend API is limited to a fixed set of [search terms](#search-terms)
 
 ## Udacity Resources
 * [Project starter template](https://github.com/udacity/reactnd-project-myreads-starter)
